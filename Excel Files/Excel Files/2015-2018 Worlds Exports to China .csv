@@ -1,0 +1,389 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,0,,,,0,,363839499,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,0,,,,0,,9486551081,,,0
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,0,,,,0,,8070777269,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,0,,,,0,,5069954056,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,0,,,,,,613505827,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,06,"Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",1,No Quantity,0,,,,0,,280863437,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,0,,,,0,,2015745215,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,0,,,,0,,6395218154,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,0,,,,0,,472245966,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,0,,,,0,,6400876094,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,0,,,,,,970485259,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,0,,,,0,,44514236242,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,0,,,,0,,255906924,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,14,Vegetable plaiting materials; vegetable products not elsewhere specified or included,1,No Quantity,0,,,,0,,174995350,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,0,,,,0,,8285121759,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,0,,,,0,,239087870,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,0,,,,0,,1407716201,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,18,Cocoa and cocoa preparations,1,No Quantity,0,,,,0,,659889629,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,0,,,,0,,5685817639,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,0,,,,0,,1093174614,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,21,Miscellaneous edible preparations,1,No Quantity,0,,,,0,,2388101508,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,22,"Beverages, spirits and vinegar",1,No Quantity,0,,,,0,,5288404782,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,23,"Food industries, residues and wastes thereof; prepared animal fodder",1,No Quantity,0,,,,0,,3397547944,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,24,Tobacco and manufactured tobacco substitutes,1,No Quantity,0,,,,0,,1762675490,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,25,"Salt; sulphur; earths, stone; plastering materials, lime and cement",1,No Quantity,0,,,,,,6367474093,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,26,"Ores, slag and ash",1,No Quantity,0,,,,,,126477634212,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",1,No Quantity,0,,,,,,249624522202,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,28,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",1,No Quantity,0,,,,,,10433675245,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,29,Organic chemicals,1,No Quantity,0,,,,,,55837858384,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,30,Pharmaceutical products,1,No Quantity,0,,,,,,25364914055,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,31,Fertilizers,1,No Quantity,0,,,,,,2314165806,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",1,No Quantity,0,,,,,,4652151693,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1,No Quantity,0,,,,0,,7658011298,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,34,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",1,No Quantity,0,,,,0,,4460519373,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,35,Albuminoidal substances; modified starches; glues; enzymes,1,No Quantity,0,,,,,,3355159223,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,1,No Quantity,0,,,,,,164243850,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,37,Photographic or cinematographic goods,1,No Quantity,0,,,,0,,2372879268,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,38,Chemical products n.e.c.,1,No Quantity,0,,,,,,15937606743,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,39,Plastics and articles thereof,1,No Quantity,0,,,,0,,68929152803,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,40,Rubber and articles thereof,1,No Quantity,0,,,,0,,18754065159,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,41,Raw hides and skins (other than furskins) and leather,1,No Quantity,0,,,,0,,5648927066,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",1,No Quantity,0,,,,0,,2630682295,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,43,Furskins and artificial fur; manufactures thereof,1,No Quantity,0,,,,0,,1241833122,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,44,Wood and articles of wood; wood charcoal,1,No Quantity,0,,,,0,,23421966357,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,45,Cork and articles of cork,1,No Quantity,0,,,,0,,47686673,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,46,"Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",1,No Quantity,0,,,,0,,14575420,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,47,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,1,No Quantity,0,,,,0,,21214006775,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,48,"Paper and paperboard; articles of paper pulp, of paper or paperboard",1,No Quantity,0,,,,0,,4981982649,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",1,No Quantity,0,,,,0,,1714290695,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,50,Silk,1,No Quantity,0,,,,0,,50634382,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",1,No Quantity,0,,,,0,,3632012972,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,52,Cotton,1,No Quantity,0,,,,0,,8614957705,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,53,Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,1,No Quantity,0,,,,0,,806377918,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,54,Man-made filaments; strip and the like of man-made textile materials,1,No Quantity,0,,,,0,,3009220528,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,55,Man-made staple fibres,1,No Quantity,0,,,,0,,2376398615,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,56,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",1,No Quantity,0,,,,,,1298862241,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,57,Carpets and other textile floor coverings,1,No Quantity,0,,,,0,,132834607,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,58,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",1,No Quantity,0,,,,0,,521085864,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,59,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",1,No Quantity,0,,,,,,1786517251,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,60,Fabrics; knitted or crocheted,1,No Quantity,0,,,,0,,1690963046,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,61,Apparel and clothing accessories; knitted or crocheted,1,No Quantity,0,,,,0,,2798682742,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,62,Apparel and clothing accessories; not knitted or crocheted,1,No Quantity,0,,,,0,,3874680893,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,63,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",1,No Quantity,0,,,,0,,506114555,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,64,Footwear; gaiters and the like; parts of such articles,1,No Quantity,0,,,,0,,3650839518,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,65,Headgear and parts thereof,1,No Quantity,0,,,,0,,79621530,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,66,"Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",1,No Quantity,0,,,,0,,11987796,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,67,"Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",1,No Quantity,0,,,,0,,218563098,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,68,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",1,No Quantity,0,,,,0,,1669702722,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,69,Ceramic products,1,No Quantity,0,,,,0,,1023009705,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,70,Glass and glassware,1,No Quantity,0,,,,0,,7219290605,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,71,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",1,No Quantity,0,,,,,,65288227194,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,72,Iron and steel,1,No Quantity,0,,,,,,21475573590,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,73,Iron or steel articles,1,No Quantity,0,,,,0,,10020271142,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,74,Copper and articles thereof,1,No Quantity,0,,,,,,41284905694,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,75,Nickel and articles thereof,1,No Quantity,0,,,,0,,4643077817,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,76,Aluminium and articles thereof,1,No Quantity,0,,,,0,,6618069715,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,78,Lead and articles thereof,1,No Quantity,0,,,,0,,265146035,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,79,Zinc and articles thereof,1,No Quantity,0,,,,0,,2496799321,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,80,Tin; articles thereof,1,No Quantity,0,,,,0,,208780375,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,81,"Metals; n.e.c., cermets and articles thereof",1,No Quantity,0,,,,0,,3098410139,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",1,No Quantity,0,,,,0,,3642705879,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,83,Metal; miscellaneous products of base metal,1,No Quantity,0,,,,0,,1810032719,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",1,No Quantity,0,,,,,,169532408468,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",1,No Quantity,0,,,,,,457922455873,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,86,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",1,No Quantity,0,,,,,,762788310,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",1,No Quantity,0,,,,0,,79245672137,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,88,"Aircraft, spacecraft and parts thereof",1,No Quantity,0,,,,0,,25493484213,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,89,"Ships, boats and floating structures",1,No Quantity,0,,,,,,1765833226,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,90,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",1,No Quantity,0,,,,,,97468605433,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,91,Clocks and watches and parts thereof,1,No Quantity,0,,,,,,3327457565,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,92,Musical instruments; parts and accessories of such articles,1,No Quantity,0,,,,,,403360661,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,93,Arms and ammunition; parts and accessories thereof,1,No Quantity,0,,,,0,,7072914,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",1,No Quantity,0,,,,0,,3700688801,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,95,"Toys, games and sports requisites; parts and accessories thereof",1,No Quantity,0,,,,0,,2030334575,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,96,Miscellaneous manufactured articles,1,No Quantity,0,,,,0,,2633976198,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,97,Works of art; collectors' pieces and antiques,1,No Quantity,0,,,,,,76640000,,,4
+H5,2017,2017,2017,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,99,Commodities not specified according to kind,1,No Quantity,0,,,,0,,14685080240,,,0
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,0,,,,0,,412936020,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,0,,,,0,,11018798343,,,0
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,0,,,,0,,11605738281,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,0,,,,0,,5601464003,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,0,,,,0,,729224615,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,06,"Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",1,No Quantity,0,,,,0,,292745391,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,0,,,,0,,2037900267,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,0,,,,0,,8680370505,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,0,,,,0,,632320291,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,0,,,,0,,5793074108,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,0,,,,0,,1180576191,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,0,,,,0,,43371567145,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,0,,,,0,,313884744,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,14,Vegetable plaiting materials; vegetable products not elsewhere specified or included,1,No Quantity,0,,,,0,,143500647,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,0,,,,0,,8609592643,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,0,,,,0,,392894594,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,0,,,,0,,1422213531,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,18,Cocoa and cocoa preparations,1,No Quantity,0,,,,0,,786385723,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,0,,,,0,,6665158200,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,0,,,,0,,1399420657,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,21,Miscellaneous edible preparations,1,No Quantity,0,,,,0,,3254787058,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,22,"Beverages, spirits and vinegar",1,No Quantity,0,,,,0,,6433892024,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,23,"Food industries, residues and wastes thereof; prepared animal fodder",1,No Quantity,0,,,,0,,3805129929,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,24,Tobacco and manufactured tobacco substitutes,1,No Quantity,0,,,,0,,1758782405,,,0
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,25,"Salt; sulphur; earths, stone; plastering materials, lime and cement",1,No Quantity,0,,,,0,,8015641240,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,26,"Ores, slag and ash",1,No Quantity,0,,,,0,,135914467339,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",1,No Quantity,0,,,,,,347782297215,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,28,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",1,No Quantity,0,,,,0,,10829462507,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,29,Organic chemicals,1,No Quantity,0,,,,0,,67391000297,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,30,Pharmaceutical products,1,No Quantity,0,,,,0,,27900028334,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,31,Fertilizers,1,No Quantity,0,,,,,,2732283342,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",1,No Quantity,0,,,,,,5027414785,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1,No Quantity,0,,,,0,,12374999110,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,34,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",1,No Quantity,0,,,,0,,4913086375,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,35,Albuminoidal substances; modified starches; glues; enzymes,1,No Quantity,0,,,,0,,3600361420,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,1,No Quantity,0,,,,0,,139935872,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,37,Photographic or cinematographic goods,1,No Quantity,0,,,,0,,2618858096,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,38,Chemical products n.e.c.,1,No Quantity,0,,,,0,,18071689681,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,39,Plastics and articles thereof,1,No Quantity,0,,,,0,,74867229916,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,40,Rubber and articles thereof,1,No Quantity,0,,,,0,,16908807609,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,41,Raw hides and skins (other than furskins) and leather,1,No Quantity,0,,,,0,,4778305416,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",1,No Quantity,0,,,,0,,3319023835,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,43,Furskins and artificial fur; manufactures thereof,1,No Quantity,0,,,,0,,1038480648,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,44,Wood and articles of wood; wood charcoal,1,No Quantity,0,,,,0,,24914414554,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,45,Cork and articles of cork,1,No Quantity,0,,,,0,,56025889,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,46,"Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",1,No Quantity,0,,,,0,,15777833,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,47,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,1,No Quantity,0,,,,0,,24011029696,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,48,"Paper and paperboard; articles of paper pulp, of paper or paperboard",1,No Quantity,0,,,,0,,6201171006,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",1,No Quantity,0,,,,0,,2076359063,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,50,Silk,1,No Quantity,0,,,,0,,53306899,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",1,No Quantity,0,,,,0,,4197746357,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,52,Cotton,1,No Quantity,0,,,,0,,9890789520,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,53,Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,1,No Quantity,0,,,,0,,916880741,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,54,Man-made filaments; strip and the like of man-made textile materials,1,No Quantity,0,,,,0,,3155488565,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,55,Man-made staple fibres,1,No Quantity,0,,,,0,,2477538523,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,56,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",1,No Quantity,0,,,,0,,1325561332,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,57,Carpets and other textile floor coverings,1,No Quantity,0,,,,0,,136009524,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,58,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",1,No Quantity,0,,,,0,,512443050,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,59,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",1,No Quantity,0,,,,0,,1811224132,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,60,Fabrics; knitted or crocheted,1,No Quantity,0,,,,0,,1638445709,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,61,Apparel and clothing accessories; knitted or crocheted,1,No Quantity,0,,,,0,,3387415671,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,62,Apparel and clothing accessories; not knitted or crocheted,1,No Quantity,0,,,,0,,4173539388,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,63,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",1,No Quantity,0,,,,0,,484756376,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,64,Footwear; gaiters and the like; parts of such articles,1,No Quantity,0,,,,0,,4661493788,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,65,Headgear and parts thereof,1,No Quantity,0,,,,0,,99607813,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,66,"Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",1,No Quantity,0,,,,0,,33276210,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,67,"Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",1,No Quantity,0,,,,0,,230903998,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,68,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",1,No Quantity,0,,,,0,,1836106965,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,69,Ceramic products,1,No Quantity,0,,,,0,,1226916274,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,70,Glass and glassware,1,No Quantity,0,,,,0,,7786534919,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,71,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",1,No Quantity,0,,,,0,,61954059371,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,72,Iron and steel,1,No Quantity,0,,,,0,,22377160154,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,73,Iron or steel articles,1,No Quantity,0,,,,0,,10761902237,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,74,Copper and articles thereof,1,No Quantity,0,,,,0,,47646536985,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,75,Nickel and articles thereof,1,No Quantity,0,,,,0,,5499113316,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,76,Aluminium and articles thereof,1,No Quantity,0,,,,,,6641145507,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,78,Lead and articles thereof,1,No Quantity,0,,,,0,,401412440,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,79,Zinc and articles thereof,1,No Quantity,0,,,,0,,2579502311,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,80,Tin; articles thereof,1,No Quantity,0,,,,0,,178846544,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,81,"Metals; n.e.c., cermets and articles thereof",1,No Quantity,0,,,,0,,4824242786,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",1,No Quantity,0,,,,0,,3849874002,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,83,Metal; miscellaneous products of base metal,1,No Quantity,0,,,,0,,1940537750,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",1,No Quantity,0,,,,0,,202317919449,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",1,No Quantity,0,,,,,,521542155083,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,86,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",1,No Quantity,0,,,,,,793334913,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",1,No Quantity,0,,,,0,,81492534369,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,88,"Aircraft, spacecraft and parts thereof",1,No Quantity,0,,,,0,,30683739479,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,89,"Ships, boats and floating structures",1,No Quantity,0,,,,,,2056460252,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,90,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",1,No Quantity,0,,,,,,102526375404,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,91,Clocks and watches and parts thereof,1,No Quantity,0,,,,,,3821226007,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,92,Musical instruments; parts and accessories of such articles,1,No Quantity,0,,,,,,488559035,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,93,Arms and ammunition; parts and accessories thereof,1,No Quantity,0,,,,0,,7928643,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",1,No Quantity,0,,,,0,,3971384239,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,95,"Toys, games and sports requisites; parts and accessories thereof",1,No Quantity,0,,,,0,,2110435842,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,96,Miscellaneous manufactured articles,1,No Quantity,0,,,,0,,2591079734,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,97,Works of art; collectors' pieces and antiques,1,No Quantity,0,,,,,,194043558,,,4
+H5,2018,2018,2018,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,99,Commodities not specified according to kind,1,No Quantity,0,,,,0,,29854611432,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,,,,,,,549431455,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,,,,,,,394452237,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,,,,,6800509587,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,,,,,10262578190,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,,,,,6328008439,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,,,,,6917637021,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,,,,,3303432028,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,,,,,3516725928,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,,,,,466518821,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,,,,,522201022,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,06,"Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",1,No Quantity,,,,,,,217333411,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,06,"Trees and other plants, live; bulbs, roots and the like; cut flowers and ornamental foliage",1,No Quantity,,,,,,,226363462,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,,,,,2620882994,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,,,,,1864235893,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,,,,,6017137387,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,,,,,5864967114,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,,,,,397476855,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,,,,,666895114,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,,,,,,,9347988787,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,,,,,,,5661089235,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,,,,,952077841,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,,,,,892277912,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,,,,,39712699343,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,,,,,38295394616,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,,,,,227366590,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,,,,,214137973,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,14,Vegetable plaiting materials; vegetable products not elsewhere specified or included,1,No Quantity,,,,,,,196652670,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,14,Vegetable plaiting materials; vegetable products not elsewhere specified or included,1,No Quantity,,,,,,,204289457,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,,,,,7892166312,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,,,,,7040708436,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,,,,,238804027,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,,,,,182968961,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,,,,,2080252240,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,,,,,1460104034,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,18,Cocoa and cocoa preparations,1,No Quantity,,,,,,,872751268,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,18,Cocoa and cocoa preparations,1,No Quantity,,,,,,,685520593,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,,,,,3838008839,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,,,,,4559059091,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,,,,,875843923,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,,,,,981530512,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,21,Miscellaneous edible preparations,1,No Quantity,,,,,,,1785813888,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,21,Miscellaneous edible preparations,1,No Quantity,,,,,,,2164100951,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,22,"Beverages, spirits and vinegar",1,No Quantity,,,,,,,4282454614,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,22,"Beverages, spirits and vinegar",1,No Quantity,,,,,,,4786505182,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,23,"Food industries, residues and wastes thereof; prepared animal fodder",1,No Quantity,,,,,,,4425567993,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,23,"Food industries, residues and wastes thereof; prepared animal fodder",1,No Quantity,,,,,,,3062037641,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,24,Tobacco and manufactured tobacco substitutes,1,No Quantity,,,,,,,1863501664,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,24,Tobacco and manufactured tobacco substitutes,1,No Quantity,,,,,,,1727669591,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,25,"Salt; sulphur; earths, stone; plastering materials, lime and cement",1,No Quantity,,,,,,,5470273716,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,25,"Salt; sulphur; earths, stone; plastering materials, lime and cement",1,No Quantity,,,,,,,4674374575,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,26,"Ores, slag and ash",1,No Quantity,,,,,,,93720072251,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,26,"Ores, slag and ash",1,No Quantity,,,,,,,94479040429,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",1,No Quantity,,,,,,,198600749043,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",1,No Quantity,,,,,,,176535890009,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,28,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",1,No Quantity,,,,,,,9918662752,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,28,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",1,No Quantity,,,,,,,9024571475,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,29,Organic chemicals,1,No Quantity,,,,,,,47757643693,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,29,Organic chemicals,1,No Quantity,,,,,,,43905779588,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,30,Pharmaceutical products,1,No Quantity,,,,,,,19226077793,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,30,Pharmaceutical products,1,No Quantity,,,,,,,20771374390,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,31,Fertilizers,1,No Quantity,,,,,,,3926818359,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,31,Fertilizers,1,No Quantity,,,,,,,2407917102,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",1,No Quantity,,,,,,,4086607156,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",1,No Quantity,,,,,,,4235846056,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1,No Quantity,,,,,,,4509560024,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1,No Quantity,,,,,,,5506877026,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,34,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",1,No Quantity,,,,,,,3810786914,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,34,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",1,No Quantity,,,,,,,3938751264,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,35,Albuminoidal substances; modified starches; glues; enzymes,1,No Quantity,,,,,,,3040093574,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,35,Albuminoidal substances; modified starches; glues; enzymes,1,No Quantity,,,,,,,3088113910,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,1,No Quantity,,,,,,,148115022,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,36,Explosives; pyrotechnic products; matches; pyrophoric alloys; certain combustible preparations,1,No Quantity,,,,,,,178187188,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,37,Photographic or cinematographic goods,1,No Quantity,,,,,,,2195593680,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,37,Photographic or cinematographic goods,1,No Quantity,,,,,,,2227804102,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,38,Chemical products n.e.c.,1,No Quantity,,,,,,,14428504509,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,38,Chemical products n.e.c.,1,No Quantity,,,,,,,14505366427,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,39,Plastics and articles thereof,1,No Quantity,,,,,,,65550972497,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,39,Plastics and articles thereof,1,No Quantity,,,,,,,61048503014,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,40,Rubber and articles thereof,1,No Quantity,,,,,,,14152927214,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,40,Rubber and articles thereof,1,No Quantity,,,,,,,13713873835,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,41,Raw hides and skins (other than furskins) and leather,1,No Quantity,,,,,,,7499445832,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,41,Raw hides and skins (other than furskins) and leather,1,No Quantity,,,,,,,5758922506,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",1,No Quantity,,,,,,,2112309715,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",1,No Quantity,,,,,,,2202436503,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,43,Furskins and artificial fur; manufactures thereof,1,No Quantity,,,,,,,1504347667,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,43,Furskins and artificial fur; manufactures thereof,1,No Quantity,,,,,,,1227258061,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,44,Wood and articles of wood; wood charcoal,1,No Quantity,,,,,,,18655529164,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,44,Wood and articles of wood; wood charcoal,1,No Quantity,,,,,,,19627359800,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,45,Cork and articles of cork,1,No Quantity,,,,,,,40898584,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,45,Cork and articles of cork,1,No Quantity,,,,,,,41417405,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,46,"Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",1,No Quantity,,,,,,,12833343,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,46,"Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",1,No Quantity,,,,,,,12537986,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,47,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,1,No Quantity,,,,,,,18040190744,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,47,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,1,No Quantity,,,,,,,17229611281,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,48,"Paper and paperboard; articles of paper pulp, of paper or paperboard",1,No Quantity,,,,,,,4046061653,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,48,"Paper and paperboard; articles of paper pulp, of paper or paperboard",1,No Quantity,,,,,,,3947370817,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",1,No Quantity,,,,,,,1672672080,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",1,No Quantity,,,,,,,1641708647,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,50,Silk,1,No Quantity,,,,,,,59658539,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,50,Silk,1,No Quantity,,,,,,,57157679,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",1,No Quantity,,,,,,,3419969333,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",1,No Quantity,,,,,,,3145878171,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,52,Cotton,1,No Quantity,,,,,,,10254128003,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,52,Cotton,1,No Quantity,,,,,,,7743516202,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,53,Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,1,No Quantity,,,,,,,858821753,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,53,Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,1,No Quantity,,,,,,,795158711,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,54,Man-made filaments; strip and the like of man-made textile materials,1,No Quantity,,,,,,,3125178261,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,54,Man-made filaments; strip and the like of man-made textile materials,1,No Quantity,,,,,,,2913083641,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,55,Man-made staple fibres,1,No Quantity,,,,,,,2602764321,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,55,Man-made staple fibres,1,No Quantity,,,,,,,2039600257,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,56,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",1,No Quantity,,,,,,,1175763989,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,56,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",1,No Quantity,,,,,,,1170744460,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,57,Carpets and other textile floor coverings,1,No Quantity,,,,,,,145931397,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,57,Carpets and other textile floor coverings,1,No Quantity,,,,,,,136940918,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,58,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",1,No Quantity,,,,,,,586284773,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,58,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",1,No Quantity,,,,,,,542900752,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,59,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",1,No Quantity,,,,,,,1800269098,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,59,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",1,No Quantity,,,,,,,1721413000,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,60,Fabrics; knitted or crocheted,1,No Quantity,,,,,,,1847424815,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,60,Fabrics; knitted or crocheted,1,No Quantity,,,,,,,1704355766,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,61,Apparel and clothing accessories; knitted or crocheted,1,No Quantity,,,,,,,2309125196,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,61,Apparel and clothing accessories; knitted or crocheted,1,No Quantity,,,,,,,2380453067,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,62,Apparel and clothing accessories; not knitted or crocheted,1,No Quantity,,,,,,,3720399620,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,62,Apparel and clothing accessories; not knitted or crocheted,1,No Quantity,,,,,,,3567772600,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,63,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",1,No Quantity,,,,,,,462184924,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,63,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",1,No Quantity,,,,,,,448979919,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,64,Footwear; gaiters and the like; parts of such articles,1,No Quantity,,,,,,,2748626815,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,64,Footwear; gaiters and the like; parts of such articles,1,No Quantity,,,,,,,3062799666,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,65,Headgear and parts thereof,1,No Quantity,,,,,,,54623337,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,65,Headgear and parts thereof,1,No Quantity,,,,,,,62955402,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,66,"Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",1,No Quantity,,,,,,,14076186,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,66,"Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",1,No Quantity,,,,,,,12365552,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,67,"Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",1,No Quantity,,,,,,,270330019,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,67,"Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",1,No Quantity,,,,,,,217389234,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,68,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",1,No Quantity,,,,,,,1508436124,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,68,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",1,No Quantity,,,,,,,1566154328,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,69,Ceramic products,1,No Quantity,,,,,,,704251804,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,69,Ceramic products,1,No Quantity,,,,,,,789658358,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,70,Glass and glassware,1,No Quantity,,,,,,,6602504842,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,70,Glass and glassware,1,No Quantity,,,,,,,6828504120,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,71,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",1,No Quantity,,,,,,,96592596744,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,71,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",1,No Quantity,,,,,,,79327271321,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,72,Iron and steel,1,No Quantity,,,,,,,18152467869,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,72,Iron and steel,1,No Quantity,,,,,,,16917769452,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,73,Iron or steel articles,1,No Quantity,,,,,,,10077416872,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,73,Iron or steel articles,1,No Quantity,,,,,,,9576174275,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,74,Copper and articles thereof,1,No Quantity,,,,,,,38146912505,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,74,Copper and articles thereof,1,No Quantity,,,,,,,33258729331,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,75,Nickel and articles thereof,1,No Quantity,,,,,,,5154613538,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,75,Nickel and articles thereof,1,No Quantity,,,,,,,4956998834,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,76,Aluminium and articles thereof,1,No Quantity,,,,,,,6929554158,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,76,Aluminium and articles thereof,1,No Quantity,,,,,,,5946233831,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,78,Lead and articles thereof,1,No Quantity,,,,,,,46865303,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,78,Lead and articles thereof,1,No Quantity,,,,,,,52807718,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,79,Zinc and articles thereof,1,No Quantity,,,,,,,1444655813,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,79,Zinc and articles thereof,1,No Quantity,,,,,,,1171409614,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,80,Tin; articles thereof,1,No Quantity,,,,,,,325302391,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,80,Tin; articles thereof,1,No Quantity,,,,,,,307010535,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,81,"Metals; n.e.c., cermets and articles thereof",1,No Quantity,,,,,,,1785132690,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,81,"Metals; n.e.c., cermets and articles thereof",1,No Quantity,,,,,,,1804134009,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",1,No Quantity,,,,,,,3426155254,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",1,No Quantity,,,,,,,3210723941,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,83,Metal; miscellaneous products of base metal,1,No Quantity,,,,,,,1701997318,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,83,Metal; miscellaneous products of base metal,1,No Quantity,,,,,,,1755013354,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",1,No Quantity,,,,,,,157042985454,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",1,No Quantity,,,,,,,147659933125,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",1,No Quantity,,,,,,,428694319100,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",1,No Quantity,,,,,,,412879364754,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,86,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",1,No Quantity,,,,,,,1349299812,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,86,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",1,No Quantity,,,,,,,1062880617,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",1,No Quantity,,,,,,,69628668321,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",1,No Quantity,,,,,,,71506000147,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,88,"Aircraft, spacecraft and parts thereof",1,No Quantity,,,,,,,25951857894,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,88,"Aircraft, spacecraft and parts thereof",1,No Quantity,,,,,,,22840342940,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,89,"Ships, boats and floating structures",1,No Quantity,,,,,,,1003464428,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,89,"Ships, boats and floating structures",1,No Quantity,,,,,,,1924411825,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,90,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",1,No Quantity,,,,,,,99636208170,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,90,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",1,No Quantity,,,,,,,92688922041,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,91,Clocks and watches and parts thereof,1,No Quantity,,,,,,,3482148325,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,91,Clocks and watches and parts thereof,1,No Quantity,,,,,,,3127680462,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,92,Musical instruments; parts and accessories of such articles,1,No Quantity,,,,,,,338718600,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,92,Musical instruments; parts and accessories of such articles,1,No Quantity,,,,,,,376092601,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,93,Arms and ammunition; parts and accessories thereof,1,No Quantity,,,,,,,7647180,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,93,Arms and ammunition; parts and accessories thereof,1,No Quantity,,,,,,,13460594,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",1,No Quantity,,,,,,,3232625814,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",1,No Quantity,,,,,,,3219059376,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,95,"Toys, games and sports requisites; parts and accessories thereof",1,No Quantity,,,,,,,1878035877,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,95,"Toys, games and sports requisites; parts and accessories thereof",1,No Quantity,,,,,,,1910038506,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,96,Miscellaneous manufactured articles,1,No Quantity,,,,,,,2348619388,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,96,Miscellaneous manufactured articles,1,No Quantity,,,,,,,2388686316,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,97,Works of art; collectors' pieces and antiques,1,No Quantity,,,,,,,359541926,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,97,Works of art; collectors' pieces and antiques,1,No Quantity,,,,,,,137056875,,,0
+H4,2015,2015,2015,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,99,Commodities not specified according to kind,1,No Quantity,,,,,,,7135332712,,,0
+H4,2016,2016,2016,2,0,1,Import,156,China,CHN,0,World,WLD,,,,,,,,99,Commodities not specified according to kind,1,No Quantity,,,,,,,12910356403,,,0

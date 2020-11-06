@@ -1,0 +1,21 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,41,Raw hides and skins (other than furskins) and leather,1,No Quantity,0,,,,0,,26930520,,,0
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,42,"Articles of leather; saddlery and harness; travel goods, handbags and similar containers; articles of animal gut (other than silk-worm gut)",1,No Quantity,0,,,,0,,385233675,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,43,Furskins and artificial fur; manufactures thereof,1,No Quantity,0,,,,0,,2777108,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,44,Wood and articles of wood; wood charcoal,1,No Quantity,0,,,,0,,128095466,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,45,Cork and articles of cork,1,No Quantity,0,,,,0,,575096,,,0
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,46,"Manufactures of straw, esparto or other plaiting materials; basketware and wickerwork",1,No Quantity,0,,,,0,,2560149,,,0
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,47,Pulp of wood or other fibrous cellulosic material; recovered (waste and scrap) paper or paperboard,1,No Quantity,0,,,,0,,21697501,,,0
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,48,"Paper and paperboard; articles of paper pulp, of paper or paperboard",1,No Quantity,0,,,,0,,498083786,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,49,"Printed books, newspapers, pictures and other products of the printing industry; manuscripts, typescripts and plans",1,No Quantity,0,,,,0,,22749347,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,50,Silk,1,No Quantity,0,,,,0,,135666676,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,51,"Wool, fine or coarse animal hair; horsehair yarn and woven fabric",1,No Quantity,0,,,,0,,38838761,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,52,Cotton,1,No Quantity,0,,,,0,,123318958,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,53,Vegetable textile fibres; paper yarn and woven fabrics of paper yarn,1,No Quantity,0,,,,0,,110470076,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,54,Man-made filaments; strip and the like of man-made textile materials,1,No Quantity,0,,,,0,,422431588,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,55,Man-made staple fibres,1,No Quantity,0,,,,0,,303312832,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,56,"Wadding, felt and nonwovens, special yarns; twine, cordage, ropes and cables and articles thereof",1,No Quantity,0,,,,0,,118161695,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,57,Carpets and other textile floor coverings,1,No Quantity,0,,,,0,,37745291,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,58,"Fabrics; special woven fabrics, tufted textile fabrics, lace, tapestries, trimmings, embroidery",1,No Quantity,0,,,,0,,85097259,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,59,"Textile fabrics; impregnated, coated, covered or laminated; textile articles of a kind suitable for industrial use",1,No Quantity,0,,,,0,,548002919,,,4
+H5,2018,2018,2018,2,0,1,Import,699,India,IND,156,China,CHN,,,,,,,,60,Fabrics; knitted or crocheted,1,No Quantity,0,,,,0,,430573489,,,0

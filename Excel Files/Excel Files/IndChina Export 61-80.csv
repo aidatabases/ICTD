@@ -1,0 +1,19 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,61,Apparel and clothing accessories; knitted or crocheted,1,No Quantity,0,,,,0,,39357513,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,62,Apparel and clothing accessories; not knitted or crocheted,1,No Quantity,0,,,,0,,56451576,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,63,"Textiles, made up articles; sets; worn clothing and worn textile articles; rags",1,No Quantity,0,,,,0,,27576467,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,64,Footwear; gaiters and the like; parts of such articles,1,No Quantity,0,,,,0,,41952013,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,65,Headgear and parts thereof,1,No Quantity,0,,,,0,,178676,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,66,"Umbrellas, sun umbrellas, walking-sticks, seat sticks, whips, riding crops; and parts thereof",1,No Quantity,0,,,,0,,48607,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,67,"Feathers and down, prepared; and articles made of feather or of down; artificial flowers; articles of human hair",1,No Quantity,0,,,,0,,138374050,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,68,"Stone, plaster, cement, asbestos, mica or similar materials; articles thereof",1,No Quantity,0,,,,0,,11746824,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,69,Ceramic products,1,No Quantity,0,,,,0,,15164143,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,70,Glass and glassware,1,No Quantity,0,,,,0,,18964425,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,71,"Natural, cultured pearls; precious, semi-precious stones; precious metals, metals clad with precious metal, and articles thereof; imitation jewellery; coin",1,No Quantity,0,,,,0,,239308226,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,72,Iron and steel,1,No Quantity,0,,,,0,,300031563,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,73,Iron or steel articles,1,No Quantity,0,,,,0,,61710170,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,74,Copper and articles thereof,1,No Quantity,0,,,,0,,625483927,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,75,Nickel and articles thereof,1,No Quantity,0,,,,0,,2372360,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,76,Aluminium and articles thereof,1,No Quantity,0,,,,0,,11033090,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,78,Lead and articles thereof,1,No Quantity,0,,,,0,,13321453,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,79,Zinc and articles thereof,1,No Quantity,0,,,,0,,97133370,,,4

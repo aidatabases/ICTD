@@ -1,0 +1,20 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,21,Miscellaneous edible preparations,1,No Quantity,0,,,,0,,4210647,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,22,"Beverages, spirits and vinegar",1,No Quantity,0,,,,0,,640633,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,23,"Food industries, residues and wastes thereof; prepared animal fodder",1,No Quantity,0,,,,0,,1182835,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,24,Tobacco and manufactured tobacco substitutes,1,No Quantity,0,,,,0,,1434655,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,25,"Salt; sulphur; earths, stone; plastering materials, lime and cement",1,No Quantity,0,,,,0,,699720127,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,26,"Ores, slag and ash",1,No Quantity,0,,,,0,,1130239937,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,27,"Mineral fuels, mineral oils and products of their distillation; bituminous substances; mineral waxes",1,No Quantity,0,,,,0,,3122086932,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,28,"Inorganic chemicals; organic and inorganic compounds of precious metals; of rare earth metals, of radio-active elements and of isotopes",1,No Quantity,0,,,,0,,72673628,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,29,Organic chemicals,1,No Quantity,0,,,,0,,3076011629,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,30,Pharmaceutical products,1,No Quantity,0,,,,0,,46671476,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,31,Fertilizers,1,No Quantity,0,,,,0,,1063963,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,32,"Tanning or dyeing extracts; tannins and their derivatives; dyes, pigments and other colouring matter; paints, varnishes; putty, other mastics; inks",1,No Quantity,0,,,,0,,223675156,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,33,"Essential oils and resinoids; perfumery, cosmetic or toilet preparations",1,No Quantity,0,,,,0,,91012039,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,34,"Soap, organic surface-active agents; washing, lubricating, polishing or scouring preparations; artificial or prepared waxes, candles and similar articles, modelling pastes, dental waxes and dental preparations with a basis of plaster",1,No Quantity,0,,,,0,,15163322,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,35,Albuminoidal substances; modified starches; glues; enzymes,1,No Quantity,0,,,,0,,2727211,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,37,Photographic or cinematographic goods,1,No Quantity,0,,,,0,,39132,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,38,Chemical products n.e.c.,1,No Quantity,0,,,,0,,130774815,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,39,Plastics and articles thereof,1,No Quantity,0,,,,0,,1061172295,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,40,Rubber and articles thereof,1,No Quantity,0,,,,0,,66044245,,,4
