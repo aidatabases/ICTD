@@ -1,1 +1,1 @@
-To view the dashboard, run the python file IndiaChinaDashNew.py
+To view the dashboard, run the index.py file
