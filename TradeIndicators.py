@@ -12,7 +12,7 @@ import plotly.graph_objs as go
 from plotly.offline import iplot
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+# get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[2]:
@@ -42,81 +42,93 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[3]:
 
 
-df_ICExports = pd.read_excel("Excel Files/IndChinaexports.xlsx")
+df_ICExports = pd.read_excel("ExcelFiles/IndChinaexports.xlsx")
 df_ICExports = df_ICExports[["HSCode","Commodity","Total exports"]]
 df_ICExports = df_ICExports.set_index("HSCode")
-df_India_China_export_1996_98 = pd.read_html("Excel Files/1996-98IndChinaExport.asp")[0]
+df_India_China_export_1996_98 = pd.read_html("ExcelFiles/1996-98IndChinaExport.asp")[0]
 df_India_China_export_1996_98 = df_India_China_export_1996_98[["HSCode","Commodity","1996-1997","1997-1998"]]
 df_India_China_export_1996_98 = df_India_China_export_1996_98.drop([83,84,85])
+df_India_China_export_1996_98["HSCode"] = df_India_China_export_1996_98["HSCode"].fillna(0)
 df_India_China_export_1996_98["HSCode"] = df_India_China_export_1996_98["HSCode"].astype(int)
 df_India_China_export_1996_98 = df_India_China_export_1996_98.set_index("HSCode")
 
 
-df_India_China_export_1998_00 = pd.read_html("Excel Files/1998-00IndChinaExport.asp")[0]
+df_India_China_export_1998_00 = pd.read_html("ExcelFiles/1998-00IndChinaExport.asp")[0]
 df_India_China_export_1998_00 = df_India_China_export_1998_00[["HSCode","Commodity","1998-1999","1999-2000"]]
 df_India_China_export_1998_00 = df_India_China_export_1998_00.drop([83,84,85])
+df_India_China_export_1998_00["HSCode"] = df_India_China_export_1998_00["HSCode"].fillna(0)
 df_India_China_export_1998_00["HSCode"] = df_India_China_export_1998_00["HSCode"].astype(int)
 df_India_China_export_1998_00 = df_India_China_export_1998_00.set_index("HSCode")
 
-df_India_China_export_2000_02 = pd.read_html("Excel Files/2000-02IndChinaExport.asp")[0]
+df_India_China_export_2000_02 = pd.read_html("ExcelFiles/2000-02IndChinaExport.asp")[0]
 df_India_China_export_2000_02 = df_India_China_export_2000_02[["HSCode","Commodity","2000-2001","2001-2002"]]
 df_India_China_export_2000_02 = df_India_China_export_2000_02.drop([93,94,95])
+df_India_China_export_2000_02["HSCode"] = df_India_China_export_2000_02["HSCode"].fillna(0)
 df_India_China_export_2000_02["HSCode"] = df_India_China_export_2000_02["HSCode"].astype(int)
 df_India_China_export_2000_02 = df_India_China_export_2000_02.set_index("HSCode")
 
-df_India_China_export_2002_04 = pd.read_html("Excel Files/2002-04IndChinaExport.asp")[0]
+df_India_China_export_2002_04 = pd.read_html("ExcelFiles/2002-04IndChinaExport.asp")[0]
 df_India_China_export_2002_04 = df_India_China_export_2002_04[["HSCode","Commodity","2002-2003","2003-2004"]]
 df_India_China_export_2002_04 = df_India_China_export_2002_04.drop([94,95,96])
+df_India_China_export_2002_04["HSCode"] = df_India_China_export_2002_04["HSCode"].fillna(0)
 df_India_China_export_2002_04["HSCode"] = df_India_China_export_2002_04["HSCode"].astype(int)
 df_India_China_export_2002_04 = df_India_China_export_2002_04.set_index("HSCode")
 
-df_India_China_export_2004_06 = pd.read_html("Excel Files/2004-06IndChinaExport.asp")[0]
+df_India_China_export_2004_06 = pd.read_html("ExcelFiles/2004-06IndChinaExport.asp")[0]
 df_India_China_export_2004_06 = df_India_China_export_2004_06[["HSCode","Commodity","2004-2005","2005-2006"]]
 df_India_China_export_2004_06 = df_India_China_export_2004_06.drop([95,96,97])
+df_India_China_export_2004_06["HSCode"] = df_India_China_export_2004_06["HSCode"].fillna(0)
 df_India_China_export_2004_06["HSCode"] = df_India_China_export_2004_06["HSCode"].astype(int)
 df_India_China_export_2004_06 = df_India_China_export_2004_06.set_index("HSCode")
 
-df_India_China_export_2006_08 = pd.read_html("Excel Files/2006-08IndChinaExport.asp")[0]
+df_India_China_export_2006_08 = pd.read_html("ExcelFiles/2006-08IndChinaExport.asp")[0]
 df_India_China_export_2006_08 = df_India_China_export_2006_08[["HSCode","Commodity","2006-2007","2007-2008"]]
 df_India_China_export_2006_08 = df_India_China_export_2006_08.drop([96,97,98])
+df_India_China_export_2006_08["HSCode"] = df_India_China_export_2006_08["HSCode"].fillna(0)
 df_India_China_export_2006_08["HSCode"] = df_India_China_export_2006_08["HSCode"].astype(int)
 df_India_China_export_2006_08 = df_India_China_export_2006_08.set_index("HSCode")
 
-df_India_China_export_2008_10 = pd.read_html("Excel Files/2008-10IndChinaExport.asp")[0]
+df_India_China_export_2008_10 = pd.read_html("ExcelFiles/2008-10IndChinaExport.asp")[0]
 df_India_China_export_2008_10 = df_India_China_export_2008_10[["HSCode","Commodity","2008-2009","2009-2010"]]
 df_India_China_export_2008_10 = df_India_China_export_2008_10.drop([98,99,100])
+df_India_China_export_2008_10["HSCode"] = df_India_China_export_2008_10["HSCode"].fillna(0)
 df_India_China_export_2008_10["HSCode"] = df_India_China_export_2008_10["HSCode"].astype(int)
 df_India_China_export_2008_10 = df_India_China_export_2008_10.set_index("HSCode")
 
-df_India_China_export_2010_12 = pd.read_html("Excel Files/2010-12IndChinaExport.asp")[0]
+df_India_China_export_2010_12 = pd.read_html("ExcelFiles/2010-12IndChinaExport.asp")[0]
 df_India_China_export_2010_12 = df_India_China_export_2010_12[["HSCode","Commodity","2010-2011","2011-2012"]]
 df_India_China_export_2010_12 = df_India_China_export_2010_12.drop([98,99,100])
+df_India_China_export_2010_12["HSCode"] = df_India_China_export_2010_12["HSCode"].fillna(0)
 df_India_China_export_2010_12["HSCode"] = df_India_China_export_2010_12["HSCode"].astype(int)
 df_India_China_export_2010_12 = df_India_China_export_2010_12.set_index("HSCode")
 
-df_India_China_export_2012_14 = pd.read_html("Excel Files/2012-14IndChinaExport.asp")[0]
+df_India_China_export_2012_14 = pd.read_html("ExcelFiles/2012-14IndChinaExport.asp")[0]
 df_India_China_export_2012_14 = df_India_China_export_2012_14[["HSCode","Commodity","2012-2013","2013-2014"]]
 df_India_China_export_2012_14 = df_India_China_export_2012_14.drop([98,99,100])
+df_India_China_export_2012_14["HSCode"] = df_India_China_export_2012_14["HSCode"].fillna(0)
 df_India_China_export_2012_14["HSCode"] = df_India_China_export_2012_14["HSCode"].astype(int)
 df_India_China_export_2012_14 = df_India_China_export_2012_14.set_index("HSCode")
 
-df_India_China_export_2014_15 = pd.read_html("Excel Files/2014-15IndChinaExport.asp")[0]
+df_India_China_export_2014_15 = pd.read_html("ExcelFiles/2014-15IndChinaExport.asp")[0]
 df_India_China_export_2014_15 = df_India_China_export_2014_15[["HSCode","Commodity","2014-2015"]]
 df_India_China_export_2014_15 = df_India_China_export_2014_15.drop([98,99,100])
+df_India_China_export_2014_15["HSCode"] = df_India_China_export_2014_15["HSCode"].fillna(0)
 df_India_China_export_2014_15["HSCode"] = df_India_China_export_2014_15["HSCode"].astype(int)
 df_India_China_export_2014_15 = df_India_China_export_2014_15.set_index("HSCode")
 
 
 
 
-df_India_China_export_2015_16 = pd.read_html("Excel Files/2015-16IndChinaExport.asp")[0]
-df_India_China_export_2017_18 = pd.read_html("Excel Files/2017-18IndChinaExport.asp")[0]
+df_India_China_export_2015_16 = pd.read_html("ExcelFiles/2015-16IndChinaExport.asp")[0]
+df_India_China_export_2017_18 = pd.read_html("ExcelFiles/2017-18IndChinaExport.asp")[0]
 df_India_China_export_2015_16 = df_India_China_export_2015_16[["HSCode","Commodity","2015-2016","2016-2017"]]
 df_India_China_export_2015_16 = df_India_China_export_2015_16.drop([97,98,99])
+df_India_China_export_2015_16["HSCode"] = df_India_China_export_2015_16["HSCode"].fillna(0)
 df_India_China_export_2015_16["HSCode"] = df_India_China_export_2015_16["HSCode"].astype(int)
 df_India_China_export_2015_16 = df_India_China_export_2015_16.set_index("HSCode")
 df_India_China_export_2017_18 = df_India_China_export_2017_18[["HSCode","Commodity","2017-2018","2018-2019"]]
 df_India_China_export_2017_18 = df_India_China_export_2017_18.drop([96,97,98])
+df_India_China_export_2017_18["HSCode"] = df_India_China_export_2017_18["HSCode"].fillna(0)
 df_India_China_export_2017_18["HSCode"] = df_India_China_export_2017_18["HSCode"].astype(int)
 df_India_China_export_2017_18 = df_India_China_export_2017_18.set_index("HSCode")
 df_India_China_export = pd.merge(left=df_India_China_export_2015_16, right=df_India_China_export_2017_18, how='outer', left_on='HSCode', right_on='HSCode')
@@ -157,79 +169,90 @@ df_ICE_Total.head()
 # In[5]:
 
 
-df_ICImports = pd.read_excel("Excel Files/IndiaChinaImports2019-20.xlsx")
+df_ICImports = pd.read_excel("ExcelFiles/IndiaChinaImports2019-20.xlsx")
 df_ICImports = df_ICImports[["HSCode","Commodity","Total Imports"]]
+df_ICImports["HSCode"] = df_ICImports["HSCode"].fillna(0)
 df_ICImports["HSCode"] = df_ICImports["HSCode"].astype(int)
 df_ICImports = df_ICImports.set_index("HSCode")
 df_ICImports
-df_India_China_import_1996_98 = pd.read_html("Excel Files/1996-98IndChinaImport.asp")[0]
+df_India_China_import_1996_98 = pd.read_html("ExcelFiles/1996-98IndChinaImport.asp")[0]
 df_India_China_import_1996_98 = df_India_China_import_1996_98[["HSCode","Commodity","1996-1997","1997-1998"]]
 df_India_China_import_1996_98 = df_India_China_import_1996_98.drop([84,85,86])
+df_India_China_import_1996_98["HSCode"] = df_India_China_import_1996_98["HSCode"].fillna(0)
 df_India_China_import_1996_98["HSCode"] = df_India_China_import_1996_98["HSCode"].astype(int)
 df_India_China_import_1996_98 = df_India_China_import_1996_98.set_index("HSCode")
 
-df_India_China_import_1998_00 = pd.read_html("Excel Files/1998-00IndChinaImport.asp")[0]
+df_India_China_import_1998_00 = pd.read_html("ExcelFiles/1998-00IndChinaImport.asp")[0]
 df_India_China_import_1998_00 = df_India_China_import_1998_00[["HSCode","Commodity","1998-1999","1999-2000"]]
 df_India_China_import_1998_00 = df_India_China_import_1998_00.drop([93,94,95])
+df_India_China_import_1998_00["HSCode"] = df_India_China_import_1998_00["HSCode"].fillna(0)
 df_India_China_import_1998_00["HSCode"] = df_India_China_import_1998_00["HSCode"].astype(int)
 df_India_China_import_1998_00 = df_India_China_import_1998_00.set_index("HSCode")
 
-df_India_China_import_2000_02 = pd.read_html("Excel Files/2000-02IndChinaImport.asp")[0]
+df_India_China_import_2000_02 = pd.read_html("ExcelFiles/2000-02IndChinaImport.asp")[0]
 df_India_China_import_2000_02 = df_India_China_import_2000_02[["HSCode","Commodity","2000-2001","2001-2002"]]
 df_India_China_import_2000_02 = df_India_China_import_2000_02.drop([97,98,99])
+df_India_China_import_2000_02["HSCode"] = df_India_China_import_2000_02["HSCode"].fillna(0)
 df_India_China_import_2000_02["HSCode"] = df_India_China_import_2000_02["HSCode"].astype(int)
 df_India_China_import_2000_02 = df_India_China_import_2000_02.set_index("HSCode")
 
-df_India_China_import_2002_04 = pd.read_html("Excel Files/2002-04IndChinaImport.asp")[0]
+df_India_China_import_2002_04 = pd.read_html("ExcelFiles/2002-04IndChinaImport.asp")[0]
 df_India_China_import_2002_04 = df_India_China_import_2002_04[["HSCode","Commodity","2002-2003","2003-2004"]]
 df_India_China_import_2002_04 = df_India_China_import_2002_04.drop([95,96,97])
 df_India_China_import_2002_04["HSCode"] = df_India_China_import_2002_04["HSCode"].astype(int)
 df_India_China_import_2002_04 = df_India_China_import_2002_04.set_index("HSCode")
 
-df_India_China_import_2004_06 = pd.read_html("Excel Files/2004-06IndChinaImport.asp")[0]
+df_India_China_import_2004_06 = pd.read_html("ExcelFiles/2004-06IndChinaImport.asp")[0]
 df_India_China_import_2004_06 = df_India_China_import_2004_06[["HSCode","Commodity","2004-2005","2005-2006"]]
 df_India_China_import_2004_06 = df_India_China_import_2004_06.drop([96,97,98])
+df_India_China_import_2004_06["HSCode"] = df_India_China_import_2004_06["HSCode"].fillna(0)
 df_India_China_import_2004_06["HSCode"] = df_India_China_import_2004_06["HSCode"].astype(int)
 df_India_China_import_2004_06 = df_India_China_import_2004_06.set_index("HSCode")
 
-df_India_China_import_2006_08 = pd.read_html("Excel Files/2006-08IndChinaImport.asp")[0]
+df_India_China_import_2006_08 = pd.read_html("ExcelFiles/2006-08IndChinaImport.asp")[0]
 df_India_China_import_2006_08 = df_India_China_import_2006_08[["HSCode","Commodity","2006-2007","2007-2008"]]
 df_India_China_import_2006_08 = df_India_China_import_2006_08.drop([96,97,98])
+df_India_China_import_2006_08["HSCode"] = df_India_China_import_2006_08["HSCode"].fillna(0)
 df_India_China_import_2006_08["HSCode"] = df_India_China_import_2006_08["HSCode"].astype(int)
 df_India_China_import_2006_08 = df_India_China_import_2006_08.set_index("HSCode")
 
-df_India_China_import_2008_10 = pd.read_html("Excel Files/2008-10IndChinaImport.asp")[0]
+df_India_China_import_2008_10 = pd.read_html("ExcelFiles/2008-10IndChinaImport.asp")[0]
 df_India_China_import_2008_10 = df_India_China_import_2008_10[["HSCode","Commodity","2008-2009","2009-2010"]]
 df_India_China_import_2008_10 = df_India_China_import_2008_10.drop([97,98,99])
+df_India_China_import_2008_10["HSCode"] = df_India_China_import_2008_10["HSCode"].fillna(0)
 df_India_China_import_2008_10["HSCode"] = df_India_China_import_2008_10["HSCode"].astype(int)
 df_India_China_import_2008_10 = df_India_China_import_2008_10.set_index("HSCode")
 
-df_India_China_import_2010_12 = pd.read_html("Excel Files/2010-12IndChinaImport.asp")[0]
+df_India_China_import_2010_12 = pd.read_html("ExcelFiles/2010-12IndChinaImport.asp")[0]
 df_India_China_import_2010_12 = df_India_China_import_2010_12[["HSCode","Commodity","2010-2011","2011-2012"]]
 df_India_China_import_2010_12 = df_India_China_import_2010_12.drop([98,99,100])
+df_India_China_import_2010_12["HSCode"] = df_India_China_import_2010_12["HSCode"].fillna(0)
 df_India_China_import_2010_12["HSCode"] = df_India_China_import_2010_12["HSCode"].astype(int)
 df_India_China_import_2010_12 = df_India_China_import_2010_12.set_index("HSCode")
 
-df_India_China_import_2012_14 = pd.read_html("Excel Files/2012-14IndChinaImport.asp")[0]
+df_India_China_import_2012_14 = pd.read_html("ExcelFiles/2012-14IndChinaImport.asp")[0]
 df_India_China_import_2012_14 = df_India_China_import_2012_14[["HSCode","Commodity","2012-2013","2013-2014"]]
 df_India_China_import_2012_14 = df_India_China_import_2012_14.drop([96,97,98])
+df_India_China_import_2012_14["HSCode"] = df_India_China_import_2012_14["HSCode"].fillna(0)
 df_India_China_import_2012_14["HSCode"] = df_India_China_import_2012_14["HSCode"].astype(int)
 df_India_China_import_2012_14 = df_India_China_import_2012_14.set_index("HSCode")
 
-df_India_China_import_2014_15 = pd.read_html("Excel Files/2014-15IndChinaImport.asp")[0]
+df_India_China_import_2014_15 = pd.read_html("ExcelFiles/2014-15IndChinaImport.asp")[0]
 df_India_China_import_2014_15 = df_India_China_import_2014_15[["HSCode","Commodity","2014-2015"]]
 df_India_China_import_2014_15 = df_India_China_import_2014_15.drop([95,96,97])
 df_India_China_import_2014_15["HSCode"] = df_India_China_import_2014_15["HSCode"].astype(int)
 df_India_China_import_2014_15 = df_India_China_import_2014_15.set_index("HSCode")
 
-df_India_China_import_2015_17 = pd.read_html("Excel Files/2015-17IndChinaImport.asp")[0]
-df_India_China_import_2017_19 = pd.read_html("Excel Files/2017-19IndChinaImport.asp")[0]
+df_India_China_import_2015_17 = pd.read_html("ExcelFiles/2015-17IndChinaImport.asp")[0]
+df_India_China_import_2017_19 = pd.read_html("ExcelFiles/2017-19IndChinaImport.asp")[0]
 df_India_China_import_2015_17 = df_India_China_import_2015_17[["HSCode","Commodity","2015-2016","2016-2017"]]
 df_India_China_import_2015_17 = df_India_China_import_2015_17.drop([96,97,98])
+df_India_China_import_2015_17["HSCode"] = df_India_China_import_2015_17["HSCode"].fillna(0)
 df_India_China_import_2015_17["HSCode"] = df_India_China_import_2015_17["HSCode"].astype(int)
 df_India_China_import_2015_17 = df_India_China_import_2015_17.set_index("HSCode") 
 df_India_China_import_2017_19 = df_India_China_import_2017_19[["HSCode","Commodity","2017-2018","2018-2019"]]
 df_India_China_import_2017_19 = df_India_China_import_2017_19.drop([97,98,99])
+df_India_China_import_2017_19["HSCode"] = df_India_China_import_2017_19["HSCode"].fillna(0)
 df_India_China_import_2017_19["HSCode"] = df_India_China_import_2017_19["HSCode"].astype(int)
 df_India_China_import_2017_19 = df_India_China_import_2017_19.set_index("HSCode")
 df_India_China_import = pd.merge(left=df_India_China_import_2015_17, right=df_India_China_import_2017_19, how='outer', left_on='HSCode', right_on='HSCode')
@@ -281,77 +304,86 @@ df_ICI_Total.head()
 # In[7]:
 
 
-df_E1920 = pd.read_excel("Excel Files/Indexports2019-20.xlsx")
+df_E1920 = pd.read_excel("ExcelFiles/Indexports2019-20.xlsx")
 df_E1920 = df_E1920[["HSCode","Commodity","Total Exports"]]
 df_E1920 = df_E1920.drop([98])
 df_E1920 = df_E1920.set_index("HSCode")
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
-df_India_export_1996_98 = pd.read_html("Excel Files/1996-98IndiaExports.asp")[0]
+df_India_export_1996_98 = pd.read_html("ExcelFiles/1996-98IndiaExports.asp")[0]
 df_India_export_1996_98 = df_India_export_1996_98[["HSCode","Commodity","1996-1997","1997-1998"]]
 df_India_export_1996_98 = df_India_export_1996_98.drop([98])
+df_India_export_1996_98["HSCode"] = df_India_export_1996_98["HSCode"].fillna(0)
 df_India_export_1996_98["HSCode"] = df_India_export_1996_98["HSCode"].astype(int)
 df_India_export_1996_98 = df_India_export_1996_98.set_index("HSCode")
 df_India_export_1996_98
 
-df_India_export_1998_00 = pd.read_html("Excel Files/1998-00IndiaExports.asp")[0]
+df_India_export_1998_00 = pd.read_html("ExcelFiles/1998-00IndiaExports.asp")[0]
 df_India_export_1998_00 = df_India_export_1998_00[["HSCode","Commodity","1998-1999","1999-2000"]]
 df_India_export_1998_00 = df_India_export_1998_00.drop([98])
+df_India_export_1998_00["HSCode"] = df_India_export_1998_00["HSCode"].fillna(0)
 df_India_export_1998_00["HSCode"] = df_India_export_1998_00["HSCode"].astype(int)
 df_India_export_1998_00 = df_India_export_1998_00.set_index("HSCode")
 
-df_India_export_2000_02 = pd.read_html("Excel Files/2000-02IndiaExports.asp")[0]
+df_India_export_2000_02 = pd.read_html("ExcelFiles/2000-02IndiaExports.asp")[0]
 df_India_export_2000_02 = df_India_export_2000_02[["HSCode","Commodity","2000-2001","2001-2002"]]
 df_India_export_2000_02 = df_India_export_2000_02.drop([98])
 df_India_export_2000_02["HSCode"] = df_India_export_2000_02["HSCode"].astype(int)
 df_India_export_2000_02 = df_India_export_2000_02.set_index("HSCode")
 
-df_India_export_2002_04 = pd.read_html("Excel Files/2002-04IndiaExports.asp")[0]
+df_India_export_2002_04 = pd.read_html("ExcelFiles/2002-04IndiaExports.asp")[0]
 df_India_export_2002_04 = df_India_export_2002_04[["HSCode","Commodity","2002-2003","2003-2004"]]
 df_India_export_2002_04 = df_India_export_2002_04.drop([98])
+df_India_export_2002_04["HSCode"] = df_India_export_2002_04["HSCode"].fillna(0)
 df_India_export_2002_04["HSCode"] = df_India_export_2002_04["HSCode"].astype(int)
 df_India_export_2002_04 = df_India_export_2002_04.set_index("HSCode")
 
-df_India_export_2004_06 = pd.read_html("Excel Files/2004-06IndiaExports.asp")[0]
+df_India_export_2004_06 = pd.read_html("ExcelFiles/2004-06IndiaExports.asp")[0]
 df_India_export_2004_06 = df_India_export_2004_06[["HSCode","Commodity","2004-2005","2005-2006"]]
 df_India_export_2004_06 = df_India_export_2004_06.drop([98])
+df_India_export_2004_06["HSCode"] = df_India_export_2004_06["HSCode"].fillna(0)
 df_India_export_2004_06["HSCode"] = df_India_export_2004_06["HSCode"].astype(int)
 df_India_export_2004_06 = df_India_export_2004_06.set_index("HSCode")
 
-df_India_export_2006_08 = pd.read_html("Excel Files/2006-08IndiaExports.asp")[0]
+df_India_export_2006_08 = pd.read_html("ExcelFiles/2006-08IndiaExports.asp")[0]
 df_India_export_2006_08 = df_India_export_2006_08[["HSCode","Commodity","2006-2007","2007-2008"]]
 df_India_export_2006_08 = df_India_export_2006_08.drop([98])
+df_India_export_2006_08["HSCode"] = df_India_export_2006_08["HSCode"].fillna(0)
 df_India_export_2006_08["HSCode"] = df_India_export_2006_08["HSCode"].astype(int)
 df_India_export_2006_08 = df_India_export_2006_08.set_index("HSCode")
 
-df_India_export_2008_10 = pd.read_html("Excel Files/2008-10IndiaExports.asp")[0]
+df_India_export_2008_10 = pd.read_html("ExcelFiles/2008-10IndiaExports.asp")[0]
 df_India_export_2008_10 = df_India_export_2008_10[["HSCode","Commodity","2008-2009","2009-2010"]]
 df_India_export_2008_10 = df_India_export_2008_10.drop([98])
+df_India_export_2008_10["HSCode"] = df_India_export_2008_10["HSCode"].fillna(0)
 df_India_export_2008_10["HSCode"] = df_India_export_2008_10["HSCode"].astype(int)
 df_India_export_2008_10 = df_India_export_2008_10.set_index("HSCode")
 
-df_India_export_2010_12 = pd.read_html("Excel Files/2010-12IndiaExports.asp")[0]
+df_India_export_2010_12 = pd.read_html("ExcelFiles/2010-12IndiaExports.asp")[0]
 df_India_export_2010_12 = df_India_export_2010_12[["HSCode","Commodity","2010-2011","2011-2012"]]
 df_India_export_2010_12 = df_India_export_2010_12.drop([98])
+df_India_export_2010_12["HSCode"] = df_India_export_2010_12["HSCode"].fillna(0)
 df_India_export_2010_12["HSCode"] = df_India_export_2010_12["HSCode"].astype(int)
 df_India_export_2010_12 = df_India_export_2010_12.set_index("HSCode")
 
-df_India_export_2012_14 = pd.read_html("Excel Files/2012-14IndiaExports.asp")[0]
+df_India_export_2012_14 = pd.read_html("ExcelFiles/2012-14IndiaExports.asp")[0]
 df_India_export_2012_14 = df_India_export_2012_14[["HSCode","Commodity","2012-2013","2013-2014"]]
 df_India_export_2012_14 = df_India_export_2012_14.drop([98])
+df_India_export_2012_14["HSCode"] = df_India_export_2012_14["HSCode"].fillna(0)
 df_India_export_2012_14["HSCode"] = df_India_export_2012_14["HSCode"].astype(int)
 df_India_export_2012_14 = df_India_export_2012_14.set_index("HSCode")
 df_India_export_2012_14
 
-df_India_export_2014_15 = pd.read_html("Excel Files/2014-15IndiaExports.asp")[0]
+df_India_export_2014_15 = pd.read_html("ExcelFiles/2014-15IndiaExports.asp")[0]
 df_India_export_2014_15 = df_India_export_2014_15[["HSCode","Commodity","2014-2015"]]
 df_India_export_2014_15 = df_India_export_2014_15.drop([98])
+df_India_export_2014_15["HSCode"] = df_India_export_2014_15["HSCode"].fillna(0)
 df_India_export_2014_15["HSCode"] = df_India_export_2014_15["HSCode"].astype(int)
 df_India_export_2014_15 = df_India_export_2014_15.set_index("HSCode")
 
 
-df_India_export_2015_16 = pd.read_html("Excel Files/2015-2016.asp")[0]
-df_India_export_2017_18 = pd.read_html("Excel Files/2017-18.asp")[0]
+df_India_export_2015_16 = pd.read_html("ExcelFiles/2015-2016.asp")[0]
+df_India_export_2017_18 = pd.read_html("ExcelFiles/2017-18.asp")[0]
 df_India_export_2015_16 = df_India_export_2015_16[["HSCode","Commodity","2015-2016","2016-2017"]]
 df_India_export_2015_16 = df_India_export_2015_16.drop([98])
 df_India_export_2015_16 = df_India_export_2015_16.set_index("HSCode")
@@ -399,72 +431,82 @@ df_IE_Total
 # In[9]:
 
 
-df_I1920 = pd.read_excel("Excel Files/Indimports2019-20.xlsx")
+df_I1920 = pd.read_excel("ExcelFiles/Indimports2019-20.xlsx")
 df_I1920 = df_I1920[["HSCode","Commodity","Total Imports"]]
 df_I1920 = df_I1920.set_index("HSCode")
-df_India_import_1996_98 = pd.read_html("Excel Files/1996-98IndiaImports.asp")[0]
+df_India_import_1996_98 = pd.read_html("ExcelFiles/1996-98IndiaImports.asp")[0]
 df_India_import_1996_98 = df_India_import_1996_98[["HSCode","Commodity","1996-1997","1997-1998"]]
 df_India_import_1996_98 = df_India_import_1996_98.drop([98])
+df_India_import_1996_98["HSCode"] = df_India_import_1996_98["HSCode"].fillna(0)
 df_India_import_1996_98["HSCode"] = df_India_import_1996_98["HSCode"].astype(int)
 df_India_import_1996_98 = df_India_import_1996_98.set_index("HSCode")
 
-df_India_import_1998_00 = pd.read_html("Excel Files/1998-00IndiaImports.asp")[0]
+df_India_import_1998_00 = pd.read_html("ExcelFiles/1998-00IndiaImports.asp")[0]
 df_India_import_1998_00 = df_India_import_1998_00[["HSCode","Commodity","1998-1999","1999-2000"]]
 df_India_import_1998_00 = df_India_import_1998_00.drop([98])
+df_India_import_1998_00["HSCode"] = df_India_import_1998_00["HSCode"].fillna(0)
 df_India_import_1998_00["HSCode"] = df_India_import_1998_00["HSCode"].astype(int)
 df_India_import_1998_00 = df_India_import_1998_00.set_index("HSCode")
 
-df_India_import_2000_02 = pd.read_html("Excel Files/2000-02IndiaImports.asp")[0]
+df_India_import_2000_02 = pd.read_html("ExcelFiles/2000-02IndiaImports.asp")[0]
 df_India_import_2000_02 = df_India_import_2000_02[["HSCode","Commodity","2000-2001","2001-2002"]]
 df_India_import_2000_02 = df_India_import_2000_02.drop([98])
+df_India_import_2000_02["HSCode"] = df_India_import_2000_02["HSCode"].fillna(0)
 df_India_import_2000_02["HSCode"] = df_India_import_2000_02["HSCode"].astype(int)
 df_India_import_2000_02 = df_India_import_2000_02.set_index("HSCode")
 
-df_India_import_2002_04 = pd.read_html("Excel Files/2002-04IndiaImports.asp")[0]
+df_India_import_2002_04 = pd.read_html("ExcelFiles/2002-04IndiaImports.asp")[0]
 df_India_import_2002_04 = df_India_import_2002_04[["HSCode","Commodity","2002-2003","2003-2004"]]
 df_India_import_2002_04 = df_India_import_2002_04.drop([98])
+df_India_import_2002_04["HSCode"] = df_India_import_2002_04["HSCode"].fillna(0)
 df_India_import_2002_04["HSCode"] = df_India_import_2002_04["HSCode"].astype(int)
 df_India_import_2002_04 = df_India_import_2002_04.set_index("HSCode")
 
-df_India_import_2004_06 = pd.read_html("Excel Files/2004-06IndiaImports.asp")[0]
+df_India_import_2004_06 = pd.read_html("ExcelFiles/2004-06IndiaImports.asp")[0]
 df_India_import_2004_06 = df_India_import_2004_06[["HSCode","Commodity","2004-2005","2005-2006"]]
 df_India_import_2004_06 = df_India_import_2004_06.drop([98])
+df_India_import_2004_06["HSCode"] = df_India_import_2004_06["HSCode"].fillna(0)
 df_India_import_2004_06["HSCode"] = df_India_import_2004_06["HSCode"].astype(int)
 df_India_import_2004_06 = df_India_import_2004_06.set_index("HSCode")
 
-df_India_import_2006_08 = pd.read_html("Excel Files/2006-08IndiaImports.asp")[0]
+df_India_import_2006_08 = pd.read_html("ExcelFiles/2006-08IndiaImports.asp")[0]
 df_India_import_2006_08 = df_India_import_2006_08[["HSCode","Commodity","2006-2007","2007-2008"]]
 df_India_import_2006_08 = df_India_import_2006_08.drop([98])
+df_India_import_2006_08["HSCode"] = df_India_import_2006_08["HSCode"].fillna(0)
 df_India_import_2006_08["HSCode"] = df_India_import_2006_08["HSCode"].astype(int)
 df_India_import_2006_08 = df_India_import_2006_08.set_index("HSCode")
 
-df_India_import_2008_10 = pd.read_html("Excel Files/2008-10IndiaImports.asp")[0]
+df_India_import_2008_10 = pd.read_html("ExcelFiles/2008-10IndiaImports.asp")[0]
 df_India_import_2008_10 = df_India_import_2008_10[["HSCode","Commodity","2008-2009","2009-2010"]]
 df_India_import_2008_10 = df_India_import_2008_10.drop([98])
+df_India_import_2008_10["HSCode"] = df_India_import_2008_10["HSCode"].fillna(0)
 df_India_import_2008_10["HSCode"] = df_India_import_2008_10["HSCode"].astype(int)
 df_India_import_2008_10 = df_India_import_2008_10.set_index("HSCode")
 
-df_India_import_2010_12 = pd.read_html("Excel Files/2010-12IndiaImports.asp")[0]
+df_India_import_2010_12 = pd.read_html("ExcelFiles/2010-12IndiaImports.asp")[0]
 df_India_import_2010_12 = df_India_import_2010_12[["HSCode","Commodity","2010-2011","2011-2012"]]
 df_India_import_2010_12 = df_India_import_2010_12.drop([98])
+df_India_import_2010_12["HSCode"] = df_India_import_2010_12["HSCode"].fillna(0)
 df_India_import_2010_12["HSCode"] = df_India_import_2010_12["HSCode"].astype(int)
 df_India_import_2010_12 = df_India_import_2010_12.set_index("HSCode")
 
-df_India_import_2012_14 = pd.read_html("Excel Files/2012-14IndiaImports.asp")[0]
+df_India_import_2012_14 = pd.read_html("ExcelFiles/2012-14IndiaImports.asp")[0]
 df_India_import_2012_14 = df_India_import_2012_14[["HSCode","Commodity","2012-2013","2013-2014"]]
 df_India_import_2012_14 = df_India_import_2012_14.drop([98])
+df_India_import_2012_14["HSCode"] = df_India_import_2012_14["HSCode"].fillna(0)
 df_India_import_2012_14["HSCode"] = df_India_import_2012_14["HSCode"].astype(int)
 df_India_import_2012_14 = df_India_import_2012_14.set_index("HSCode")
 
-df_India_import_2014_15 = pd.read_html("Excel Files/2014-15IndiaImports.asp")[0]
+df_India_import_2014_15 = pd.read_html("ExcelFiles/2014-15IndiaImports.asp")[0]
 df_India_import_2014_15 = df_India_import_2014_15[["HSCode","Commodity","2014-2015"]]
 df_India_import_2014_15 = df_India_import_2014_15.drop([98])
+df_India_import_2014_15["HSCode"] = df_India_import_2014_15["HSCode"].fillna(0)
 df_India_import_2014_15["HSCode"] = df_India_import_2014_15["HSCode"].astype(int)
 df_India_import_2014_15 = df_India_import_2014_15.set_index("HSCode")
 df_India_import_2014_15
 
-df_India_import_2015_16 = pd.read_html("Excel Files/2015-16import.asp")[0]
-df_India_import_2017_18 = pd.read_html("Excel Files/2018-19.asp")[0]
+df_India_import_2015_16 = pd.read_html("ExcelFiles/2015-16import.asp")[0]
+df_India_import_2017_18 = pd.read_html("ExcelFiles/2018-19.asp")[0]
 df_India_import_2015_16 = df_India_import_2015_16[["HSCode","Commodity","2015-2016","2016-2017"]]
 df_India_import_2015_16 = df_India_import_2015_16.drop([98])
 df_India_import_2015_16 = df_India_import_2015_16.set_index("HSCode")
@@ -500,19 +542,19 @@ df_II.head()
 
 
 #World's Exports to China Commodity Wise
-df_World_EX_TO_CH_2015_18 = pd.read_csv("Excel Files/2015-2018 Worlds Exports to China .csv")
+df_World_EX_TO_CH_2015_18 = pd.read_csv("ExcelFiles/2015-2018 Worlds Exports to China .csv")
 df_World_EX_TO_CH_2015_18 = df_World_EX_TO_CH_2015_18[["Commodity Code","Commodity","Year","Trade Value (US$)"]]
 df_World_EX_TO_CH_2015_18 = df_World_EX_TO_CH_2015_18.pivot_table(values='Trade Value (US$)',index=['Commodity Code'],columns=['Year'])
-df_World_EX_TO_CH_2010_14 = pd.read_csv("Excel Files/2010-2014 Worlds Exports to China.csv")
+df_World_EX_TO_CH_2010_14 = pd.read_csv("ExcelFiles/2010-2014 Worlds Exports to China.csv")
 df_World_EX_TO_CH_2010_14 = df_World_EX_TO_CH_2010_14[["Commodity Code","Commodity","Year","Trade Value (US$)"]]
 df_World_EX_TO_CH_2010_14 = df_World_EX_TO_CH_2010_14.pivot_table(values='Trade Value (US$)',index=['Commodity Code'],columns=['Year'])
-df_World_EX_TO_CH_2005_09 = pd.read_csv("Excel Files/2005-2009 Worlds Exports to China.csv")
+df_World_EX_TO_CH_2005_09 = pd.read_csv("ExcelFiles/2005-2009 Worlds Exports to China.csv")
 df_World_EX_TO_CH_2005_09 = df_World_EX_TO_CH_2005_09[["Commodity Code","Commodity","Year","Trade Value (US$)"]]
 df_World_EX_TO_CH_2005_09 = df_World_EX_TO_CH_2005_09.pivot_table(values='Trade Value (US$)',index=['Commodity Code'],columns=['Year'])
-df_World_EX_TO_CH_2000_04 = pd.read_csv("Excel Files/2000-2004 Worlds Exports to China.csv")
+df_World_EX_TO_CH_2000_04 = pd.read_csv("ExcelFiles/2000-2004 Worlds Exports to China.csv")
 df_World_EX_TO_CH_2000_04 = df_World_EX_TO_CH_2000_04[["Commodity Code","Commodity","Year","Trade Value (US$)"]]
 df_World_EX_TO_CH_2000_04 = df_World_EX_TO_CH_2000_04.pivot_table(values='Trade Value (US$)',index=['Commodity Code'],columns=['Year'])
-df_World_EX_TO_CH_1996_99 = pd.read_csv("Excel Files/1996-1999 Worlds Exports to China.csv")
+df_World_EX_TO_CH_1996_99 = pd.read_csv("ExcelFiles/1996-1999 Worlds Exports to China.csv")
 df_World_EX_TO_CH_1996_99 = df_World_EX_TO_CH_1996_99[["Commodity Code","Commodity","Year","Trade Value (US$)"]]
 df_World_EX_TO_CH_1996_99 = df_World_EX_TO_CH_1996_99.pivot_table(values='Trade Value (US$)',index=['Commodity Code'],columns=['Year'])
 df_World_EX_TO_CH = pd.concat([df_World_EX_TO_CH_2015_18,df_World_EX_TO_CH_2010_14,df_World_EX_TO_CH_2005_09,df_World_EX_TO_CH_2000_04,df_World_EX_TO_CH_1996_99], axis =1)
@@ -525,19 +567,19 @@ df_World_EX_TO_CH.head()
 
 
 # Total World Exports
-df_Total_World_Ex_2015_19 = pd.read_csv("Excel Files/2015-2019 Total World Exports.csv")
+df_Total_World_Ex_2015_19 = pd.read_csv("ExcelFiles/2015-2019 Total World Exports.csv")
 df_Total_World_Ex_2015_19 = df_Total_World_Ex_2015_19[["Year", "Reporter", "Trade Value (US$)"]]
 df_Total_World_Ex_2015_19 = df_Total_World_Ex_2015_19.groupby("Year").sum()
-df_Total_World_Ex_2010_14 = pd.read_csv("Excel Files/2010-2014 Total World Exports.csv")
+df_Total_World_Ex_2010_14 = pd.read_csv("ExcelFiles/2010-2014 Total World Exports.csv")
 df_Total_World_Ex_2010_14 = df_Total_World_Ex_2010_14[["Year", "Reporter", "Trade Value (US$)"]]
 df_Total_World_Ex_2010_14 = df_Total_World_Ex_2010_14.groupby("Year").sum()
-df_Total_World_Ex_2005_09 = pd.read_csv("Excel Files/2005-2009 Total World Exports.csv")
+df_Total_World_Ex_2005_09 = pd.read_csv("ExcelFiles/2005-2009 Total World Exports.csv")
 df_Total_World_Ex_2005_09 = df_Total_World_Ex_2005_09[["Year", "Reporter", "Trade Value (US$)"]]
 df_Total_World_Ex_2005_09 = df_Total_World_Ex_2005_09.groupby("Year").sum()
-df_Total_World_Ex_2000_04 = pd.read_csv("Excel Files/2000-2004 Total World Exports.csv")
+df_Total_World_Ex_2000_04 = pd.read_csv("ExcelFiles/2000-2004 Total World Exports.csv")
 df_Total_World_Ex_2000_04 = df_Total_World_Ex_2000_04[["Year", "Reporter", "Trade Value (US$)"]]
 df_Total_World_Ex_2000_04 = df_Total_World_Ex_2000_04.groupby("Year").sum()
-df_Total_World_Ex_1996_99 = pd.read_csv("Excel Files/1996-1999 Total World Exports.csv")
+df_Total_World_Ex_1996_99 = pd.read_csv("ExcelFiles/1996-1999 Total World Exports.csv")
 df_Total_World_Ex_1996_99 = df_Total_World_Ex_1996_99[["Year", "Reporter", "Trade Value (US$)"]]
 df_Total_World_Ex_1996_99 = df_Total_World_Ex_1996_99.groupby("Year").sum()
 df_Total_World_Ex = pd.concat([df_Total_World_Ex_1996_99,df_Total_World_Ex_2000_04,df_Total_World_Ex_2005_09,df_Total_World_Ex_2010_14,df_Total_World_Ex_2015_19])
@@ -551,19 +593,19 @@ df_Total_World_Ex
 
 
 # China's Imports from World Total
-df_Ch_IM_World_1996_99 = pd.read_csv("Excel Files/1996-1999 China Imports from World.csv")
+df_Ch_IM_World_1996_99 = pd.read_csv("ExcelFiles/1996-1999 China Imports from World.csv")
 df_Ch_IM_World_1996_99 = df_Ch_IM_World_1996_99[["Year", "Trade Value (US$)"]]
 df_Ch_IM_World_1996_99 = df_Ch_IM_World_1996_99.rename(columns = {df_Ch_IM_World_1996_99.columns[1]:"World Exports to China"})
-df_Ch_IM_World_2000_04 = pd.read_csv("Excel Files/2000-2004 China Imports from World.csv")
+df_Ch_IM_World_2000_04 = pd.read_csv("ExcelFiles/2000-2004 China Imports from World.csv")
 df_Ch_IM_World_2000_04 = df_Ch_IM_World_2000_04[["Year", "Trade Value (US$)"]]
 df_Ch_IM_World_2000_04 = df_Ch_IM_World_2000_04.rename(columns = {df_Ch_IM_World_2000_04.columns[1]:"World Exports to China"})
-df_Ch_IM_World_2005_09 = pd.read_csv("Excel Files/2005-2009 China Imports from World.csv")
+df_Ch_IM_World_2005_09 = pd.read_csv("ExcelFiles/2005-2009 China Imports from World.csv")
 df_Ch_IM_World_2005_09 = df_Ch_IM_World_2005_09[["Year", "Trade Value (US$)"]]
 df_Ch_IM_World_2005_09 = df_Ch_IM_World_2005_09.rename(columns = {df_Ch_IM_World_2005_09.columns[1]:"World Exports to China"})
-df_Ch_IM_World_2010_14 = pd.read_csv("Excel Files/2010-2014 China Imports from World.csv")
+df_Ch_IM_World_2010_14 = pd.read_csv("ExcelFiles/2010-2014 China Imports from World.csv")
 df_Ch_IM_World_2010_14 = df_Ch_IM_World_2010_14[["Year", "Trade Value (US$)"]]
 df_Ch_IM_World_2010_14 = df_Ch_IM_World_2010_14.rename(columns = {df_Ch_IM_World_2010_14.columns[1]:"World Exports to China"})
-df_Ch_IM_World_2015_18 = pd.read_csv("Excel Files/2015-2018 China Imports from World.csv")
+df_Ch_IM_World_2015_18 = pd.read_csv("ExcelFiles/2015-2018 China Imports from World.csv")
 df_Ch_IM_World_2015_18 = df_Ch_IM_World_2015_18[["Year", "Trade Value (US$)"]]
 df_Ch_IM_World_2015_18 = df_Ch_IM_World_2015_18.rename(columns = {df_Ch_IM_World_2015_18.columns[1]:"World Exports to China"})
 df_Ch_IM_World = pd.concat([df_Ch_IM_World_1996_99,df_Ch_IM_World_2000_04,df_Ch_IM_World_2005_09,df_Ch_IM_World_2010_14,df_Ch_IM_World_2015_18])
@@ -605,7 +647,7 @@ df_India_Total_Trade.head()
 
 # India Gdp Data is taken from World Bank Database and is availabe for Jan to Dec type Financial Year, Year columns is transformed to match it with the India Trade Columns
 
-df_Ind_Gdp = pd.read_excel("Excel Files/India Gdp.xlsx")
+df_Ind_Gdp = pd.read_excel("ExcelFiles/India Gdp.xlsx")
 df_Ind_Gdp = df_Ind_Gdp.T
 df_Ind_Gdp.columns = ["1996-1997","1997-1998","1998-1999","1999-2000","2000-2001","2001-2002","2002-2003","2003-2004","2004-2005","2005-2006","2006-2007","2007-2008","2008-2009","2009-2010","2010-2011","2011-2012","2012-2013","2013-2014","2014-2015","2015-2016","2016-2017","2017-2018","2018-2019","2019-2020"]
 df_Ind_Gdp.drop("Year",inplace = True)
@@ -647,7 +689,7 @@ for i in range(len(df_ICI.columns)-1):
     df_GLI[Years[i]+"E-M"] = (df_ICE[Years[i]] - df_ICI[Years[i]]).abs()
     df_GLI[Years[i]+"E+M"] = (df_ICE[Years[i]] + df_ICI[Years[i]]).abs()
 df_GLI.head()
-
+# print(df_GLI)
 
 # In[18]:
 
@@ -655,7 +697,8 @@ df_GLI.head()
 df_GLI_Fin = df_GLI.sum(axis = 0, skipna = True)
 df_GLI_Fin = pd.DataFrame(df_GLI_Fin)
 df_GLI_Fin = df_GLI_Fin.T
-df_GLI_Fin = df_GLI_Fin.drop(columns = {df_GLI_Fin.columns[0]})
+# df_GLI_Fin = df_GLI_Fin.drop(columns = {df_GLI_Fin.columns[0]})
+print(df_GLI_Fin)
 
 
 # In[19]:
@@ -690,7 +733,7 @@ plt.title('Intra Industry Trade Analysis')
 plt.xlabel('Years')
 plt.ylabel('Grubel Lloyd Index')
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[21]:
@@ -741,7 +784,7 @@ layout = dict(title = 'Intra Industry Trade Analysis (GLI)',
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 GLI= go.Figure(data = data, layout = layout)
-GLI.show()
+# GLI.show()
 
 
 # In[24]:
@@ -804,19 +847,19 @@ GLI.show()
 # In[25]:
 
 
-# df_Ch_IM_World_1996_99 = pd.read_csv("Excel Files/1996-1999 China Imports from World.csv")
+# df_Ch_IM_World_1996_99 = pd.read_csv("ExcelFiles/1996-1999 China Imports from World.csv")
 # df_Ch_IM_World_1996_99 = df_Ch_IM_World_1996_99[["Year", "Trade Value (US$)"]]
 # df_Ch_IM_World_1996_99 = df_Ch_IM_World_1996_99.rename(columns = {df_Ch_IM_World_1996_99.columns[1]:"World Exports to China"})
-# df_Ch_IM_World_2000_04 = pd.read_csv("Excel Files/2000-2004 China Imports from World.csv")
+# df_Ch_IM_World_2000_04 = pd.read_csv("ExcelFiles/2000-2004 China Imports from World.csv")
 # df_Ch_IM_World_2000_04 = df_Ch_IM_World_2000_04[["Year", "Trade Value (US$)"]]
 # df_Ch_IM_World_2000_04 = df_Ch_IM_World_2000_04.rename(columns = {df_Ch_IM_World_2000_04.columns[1]:"World Exports to China"})
-# df_Ch_IM_World_2005_09 = pd.read_csv("Excel Files/2005-2009 China Imports from World.csv")
+# df_Ch_IM_World_2005_09 = pd.read_csv("ExcelFiles/2005-2009 China Imports from World.csv")
 # df_Ch_IM_World_2005_09 = df_Ch_IM_World_2005_09[["Year", "Trade Value (US$)"]]
 # df_Ch_IM_World_2005_09 = df_Ch_IM_World_2005_09.rename(columns = {df_Ch_IM_World_2005_09.columns[1]:"World Exports to China"})
-# df_Ch_IM_World_2010_14 = pd.read_csv("Excel Files/2010-2014 China Imports from World.csv")
+# df_Ch_IM_World_2010_14 = pd.read_csv("ExcelFiles/2010-2014 China Imports from World.csv")
 # df_Ch_IM_World_2010_14 = df_Ch_IM_World_2010_14[["Year", "Trade Value (US$)"]]
 # df_Ch_IM_World_2010_14 = df_Ch_IM_World_2010_14.rename(columns = {df_Ch_IM_World_2010_14.columns[1]:"World Exports to China"})
-# df_Ch_IM_World_2015_18 = pd.read_csv("Excel Files/2015-2018 China Imports from World.csv")
+# df_Ch_IM_World_2015_18 = pd.read_csv("ExcelFiles/2015-2018 China Imports from World.csv")
 # df_Ch_IM_World_2015_18 = df_Ch_IM_World_2015_18[["Year", "Trade Value (US$)"]]
 # df_Ch_IM_World_2015_18 = df_Ch_IM_World_2015_18.rename(columns = {df_Ch_IM_World_2015_18.columns[1]:"World Exports to China"})
 # df_Ch_IM_World = pd.concat([df_Ch_IM_World_1996_99,df_Ch_IM_World_2000_04,df_Ch_IM_World_2005_09,df_Ch_IM_World_2010_14,df_Ch_IM_World_2015_18])
@@ -834,19 +877,19 @@ GLI.show()
 # In[26]:
 
 
-# df_Total_World_Ex_2015_19 = pd.read_csv("Excel Files/2015-2019 Total World Exports.csv")
+# df_Total_World_Ex_2015_19 = pd.read_csv("ExcelFiles/2015-2019 Total World Exports.csv")
 # df_Total_World_Ex_2015_19 = df_Total_World_Ex_2015_19[["Year", "Reporter", "Trade Value (US$)"]]
 # df_Total_World_Ex_2015_19 = df_Total_World_Ex_2015_19.groupby("Year").sum()
-# df_Total_World_Ex_2010_14 = pd.read_csv("Excel Files/2010-2014 Total World Exports.csv")
+# df_Total_World_Ex_2010_14 = pd.read_csv("ExcelFiles/2010-2014 Total World Exports.csv")
 # df_Total_World_Ex_2010_14 = df_Total_World_Ex_2010_14[["Year", "Reporter", "Trade Value (US$)"]]
 # df_Total_World_Ex_2010_14 = df_Total_World_Ex_2010_14.groupby("Year").sum()
-# df_Total_World_Ex_2005_09 = pd.read_csv("Excel Files/2005-2009 Total World Exports.csv")
+# df_Total_World_Ex_2005_09 = pd.read_csv("ExcelFiles/2005-2009 Total World Exports.csv")
 # df_Total_World_Ex_2005_09 = df_Total_World_Ex_2005_09[["Year", "Reporter", "Trade Value (US$)"]]
 # df_Total_World_Ex_2005_09 = df_Total_World_Ex_2005_09.groupby("Year").sum()
-# df_Total_World_Ex_2000_04 = pd.read_csv("Excel Files/2000-2004 Total World Exports.csv")
+# df_Total_World_Ex_2000_04 = pd.read_csv("ExcelFiles/2000-2004 Total World Exports.csv")
 # df_Total_World_Ex_2000_04 = df_Total_World_Ex_2000_04[["Year", "Reporter", "Trade Value (US$)"]]
 # df_Total_World_Ex_2000_04 = df_Total_World_Ex_2000_04.groupby("Year").sum()
-# df_Total_World_Ex_1996_99 = pd.read_csv("Excel Files/1996-1999 Total World Exports.csv")
+# df_Total_World_Ex_1996_99 = pd.read_csv("ExcelFiles/1996-1999 Total World Exports.csv")
 # df_Total_World_Ex_1996_99 = df_Total_World_Ex_1996_99[["Year", "Reporter", "Trade Value (US$)"]]
 # df_Total_World_Ex_1996_99 = df_Total_World_Ex_1996_99.groupby("Year").sum()
 # df_Total_World_Ex = pd.concat([df_Total_World_Ex_1996_99,df_Total_World_Ex_2000_04,df_Total_World_Ex_2005_09,df_Total_World_Ex_2010_14,df_Total_World_Ex_2015_19])
@@ -889,7 +932,7 @@ plt.title('TRADE INTENSITY INDEX')
 plt.xlabel('Years')
 plt.ylabel('TRADE INTENSITY INDEX')
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[31]:
@@ -904,7 +947,7 @@ layout = dict(title = 'TRADE INTENSITY INDEX',
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 TII= go.Figure(data = data, layout = layout)
-TII.show()
+# TII.show()
 
 
 # Value of TII increased till 2004 and then saw a downward trend till 2016 and then again rises. One possible reason of a fall in value of TII during 2004-2016 could be the adverse impact of the Financial crisis  that adversely impacted trade between countries. Value of TII saw a rise from 2016 onwards possible due to favourable trade policies between India and China
@@ -956,7 +999,7 @@ plt.title('HHI OF INDIA WRT CHINA')
 plt.xlabel('Years')
 plt.ylabel('HHII')
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[34]:
@@ -971,7 +1014,7 @@ layout = dict(title = 'HHI OF INDIA WRT CHINA',
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 HHII= go.Figure(data = data, layout = layout)
-HHII.show()
+# HHII.show()
 
 
 # In[35]:
@@ -1020,7 +1063,7 @@ plt.title('HHI OF CHINA WRT INDIA')
 plt.xlabel('Years')
 plt.ylabel('HHIC')
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[38]:
@@ -1035,7 +1078,7 @@ layout = dict(title = 'HHI OF CHINA WRT INDIA',
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 HHIC= go.Figure(data = data, layout = layout)
-HHIC.show()
+# HHIC.show()
 
 
 # In[39]:
@@ -1203,7 +1246,7 @@ plt.title('Export Concentration Analysis')
 plt.xlabel('Years')
 plt.ylabel("THEIL'S ENTROPY")
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[56]:
@@ -1227,7 +1270,7 @@ layout = dict(title = "THEIL'S ENTROPY",
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 TEIN= go.Figure(data = data, layout = layout)
-TEIN.show()
+# TEIN.show()
 
 
 # A higher value of THEIL'S ENTROPY indicates that the exports are well diversified and not limited to only a few cmmodities. The values of THEIL'S ENTROPY, as shown in graph above, shows downward trend during 2000- 2008 reflecting concentration of exports limited to few commodities. However its value started rising from 2008 onwards which indicated the exports to China getting more diiversified across a number of commodities.
@@ -1295,7 +1338,7 @@ plt.title('Openness to Trade')
 plt.xlabel('Year')
 plt.ylabel("Trade to Gdp Ratio")
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[64]:
@@ -1319,7 +1362,7 @@ layout = dict(title = "Openness to Trade",
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 TGR= go.Figure(data = data, layout = layout)
-TGR.show()
+# TGR.show()
 
 
 # The Trade-to-GDP ratio is an indicator of the relative importance of international trade in the economy of a country. The Trade to Gdp Ratio has been increasing till 2011 and then starts falling. This can be interpreted as increase in ralative importance of international trade in Indian Economy from 90s onwards possibly attributable to NEP in 1991 and fall in relative importance of international trade in Indian Economy from 2011 onwards possibly due to adverse impacts of 2008 financial crisis and policies like "Make in India" which focuses on manufacturing goods wihtin India instead of importing them.
@@ -1374,7 +1417,7 @@ plt.title('TRADE COMPLEMENTARITIES INDEX')
 plt.xlabel('Year')
 plt.ylabel("TCI")
 plt.xticks(rotation=90)
-plt.show()
+# plt.show()
 
 
 # In[86]:
@@ -1389,7 +1432,7 @@ layout = dict(title = "TRADE COMPLEMENTARITIES INDEX",
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 TCI= go.Figure(data = data, layout = layout)
-TCI.show()
+# TCI.show()
 
 
 # # Hummels-Klenow intensive and extensive margins
@@ -1423,7 +1466,7 @@ layout = dict(title = "Intensive Margin",
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 Int_Marg= go.Figure(data = data, layout = layout)
-Int_Marg.show()
+# Int_Marg.show()
 
 
 # In[ ]:
@@ -1459,7 +1502,7 @@ layout = dict(title = "Extensive Margin",
               xaxis= dict(title= 'Year',ticklen= 5,zeroline= False)
              )
 Ext_Marg= go.Figure(data = data, layout = layout)
-Ext_Marg.show()
+# Ext_Marg.show()
 
 
 # # Bilateral Revealed Comparative Advantage
@@ -1529,7 +1572,7 @@ BRCA_Final.head()
 # In[98]:
 
 
-df_Prody_deno_2019 = pd.read_csv("Excel Files/abcd.csv")
+df_Prody_deno_2019 = pd.read_csv("ExcelFiles/abcd.csv")
 df_Prody_deno_2019 = df_Prody_deno_2019.pivot_table(values = "Trade Value (US$)", index = ["Commodity Code", "Commodity"], columns= ["Reporter"] )
 df_Prody_deno_2019 = df_Prody_deno_2019.fillna(0)
 df_Prody_deno_2019 = df_Prody_deno_2019/df_Prody_deno_2019.sum()
@@ -1563,7 +1606,7 @@ df_ICE_TOP10.reset_index(inplace=True)
 labels = list(df_ICE_TOP10['HSCode'])
 values = list(df_ICE_TOP10["2019-2020"])
 India_Exports_Pie = go.Figure(data=[go.Pie(labels = labels, values = values, textinfo= 'label+percent')])
-India_Exports_Pie.show()
+# India_Exports_Pie.show()
 
 
 # In[101]:
@@ -1579,7 +1622,7 @@ df_ICI_TOP10.reset_index(inplace=True)
 labels = list(df_ICI_TOP10['HSCode'])
 values = list(df_ICI_TOP10["2019-2020"])
 India_Imports_Pie = go.Figure(data=[go.Pie(labels = labels, values = values, textinfo= 'label+percent')])
-India_Imports_Pie.show()
+# India_Imports_Pie.show()
 
 
 # In[103]:
@@ -1602,7 +1645,7 @@ layout = dict(title = 'Top 5 Exports from India to China(Commodity Wise)',
               xaxis= dict(title= 'Value of Exports',ticklen= 5,zeroline= False)
              )
 ICE_TOP5= go.Figure(data = data, layout = layout)
-ICE_TOP5.show()
+# ICE_TOP5.show()
 
 
 # In[ ]:
@@ -1631,7 +1674,7 @@ layout = dict(title = 'Top 5 Imports of India from China(Commodity Wise)',
               xaxis= dict(title= 'Value of Imports',ticklen= 5,zeroline= False)
              )
 ICI_TOP5= go.Figure(data = data, layout = layout)
-ICI_TOP5.show()
+# ICI_TOP5.show()
 
 
 # In[107]:
@@ -1654,7 +1697,7 @@ layout = dict(title = 'Top 5 Exports of India to World(Commodity Wise)',
               xaxis= dict(title= 'Value of Exports',ticklen= 5,zeroline= False)
              )
 IE_TOP5= go.Figure(data = data, layout = layout)
-IE_TOP5.show()
+# IE_TOP5.show()
 
 
 # In[109]:
@@ -1677,13 +1720,13 @@ layout = dict(title = 'Top 5 Imports of India from World (Commodity Wise)',
               xaxis= dict(title= 'Value of Imports',ticklen= 5,zeroline= False)
              )
 II_TOP5= go.Figure(data = data, layout = layout)
-II_TOP5.show()
+# II_TOP5.show()
 
 
 # In[111]:
 
 
-df_Ind_Ex_IM_Countrywise_2019_20 = pd.read_csv("Excel Files/Ind_Ex_Im_Countrywise_2019-20.csv")
+df_Ind_Ex_IM_Countrywise_2019_20 = pd.read_csv("ExcelFiles/Ind_Ex_Im_Countrywise_2019-20.csv")
 df_Ind_Ex_Countrywise_2019_20 = df_Ind_Ex_IM_Countrywise_2019_20[df_Ind_Ex_IM_Countrywise_2019_20["Trade Flow"]=="Export"]
 df_Ind_Ex_Countrywise_2019_20 = df_Ind_Ex_Countrywise_2019_20[["Partner","Trade Value (US$)"]]
 df_Ind_Ex_Countrywise_2019_20.reset_index(inplace =True)
@@ -1707,7 +1750,7 @@ df_Ind_Ex_Countrywise_2019_20
 labels = list(df_Ind_Ex_Countrywise_2019_20["Partner"])
 values = list(df_Ind_Ex_Countrywise_2019_20["Exports"])
 India_Exports_Pie = go.Figure(data=[go.Pie(labels = labels, values = values, textinfo= 'label+percent')])
-India_Exports_Pie.show()
+# India_Exports_Pie.show()
 
 
 # In[ ]:
@@ -1743,7 +1786,7 @@ df_Ind_IM_Countrywise_2019_20
 labels = list(df_Ind_IM_Countrywise_2019_20["Partner"])
 values = list(df_Ind_IM_Countrywise_2019_20["Imports"])
 India_Imports_Pie = go.Figure(data=[go.Pie(labels = labels, values = values, textinfo= 'label+percent')])
-India_Imports_Pie.show()
+# India_Imports_Pie.show()
 
 
 # In[ ]:

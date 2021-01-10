@@ -1,0 +1,19 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,81,"Metals; n.e.c., cermets and articles thereof",1,No Quantity,0,,,,0,,1398087,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,82,"Tools, implements, cutlery, spoons and forks, of base metal; parts thereof, of base metal",1,No Quantity,0,,,,0,,14795375,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,83,Metal; miscellaneous products of base metal,1,No Quantity,0,,,,0,,4803682,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",1,No Quantity,0,,,,0,,827309805,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",1,No Quantity,0,,,,0,,537325665,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,86,"Railway, tramway locomotives, rolling-stock and parts thereof; railway or tramway track fixtures and fittings and parts thereof; mechanical (including electro-mechanical) traffic signalling equipment of all kinds",1,No Quantity,0,,,,0,,3920101,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",1,No Quantity,0,,,,0,,104015788,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,88,"Aircraft, spacecraft and parts thereof",1,No Quantity,0,,,,0,,17758880,,,0
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,89,"Ships, boats and floating structures",1,No Quantity,0,,,,0,,18760,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,90,"Optical, photographic, cinematographic, measuring, checking, medical or surgical instruments and apparatus; parts and accessories",1,No Quantity,0,,,,0,,151569223,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,91,Clocks and watches and parts thereof,1,No Quantity,0,,,,0,,319534,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,92,Musical instruments; parts and accessories of such articles,1,No Quantity,0,,,,0,,4555761,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,93,Arms and ammunition; parts and accessories thereof,1,No Quantity,0,,,,0,,21589,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,94,"Furniture; bedding, mattresses, mattress supports, cushions and similar stuffed furnishings; lamps and lighting fittings, n.e.c.; illuminated signs, illuminated name-plates and the like; prefabricated buildings",1,No Quantity,0,,,,0,,17542026,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,95,"Toys, games and sports requisites; parts and accessories thereof",1,No Quantity,0,,,,0,,5136897,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,96,Miscellaneous manufactured articles,1,No Quantity,0,,,,0,,8680277,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,97,Works of art; collectors' pieces and antiques,1,No Quantity,0,,,,0,,1669528,,,4
+H5,2018,2018,2018,2,0,2,Export,699,India,IND,156,China,CHN,,,,,,,,99,Commodities not specified according to kind,1,No Quantity,0,,,,0,,1693104,,,0
